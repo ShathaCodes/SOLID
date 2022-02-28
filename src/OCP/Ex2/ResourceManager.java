@@ -1,6 +1,6 @@
 package OCP.Ex2;
 
-public interface Resource {
+public interface ResourceManager {
 	
 	public void markSlotFree(int resourceId);
 	

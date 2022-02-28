@@ -1,6 +1,6 @@
 package SRP.Ex2;
 
-public class Car
+public class Car implements Vehicule
 {
     private final String _id;
     private final String _model;
@@ -27,4 +27,6 @@ public class Car
     {
         return _brand;
     }
+    
+  
 }
